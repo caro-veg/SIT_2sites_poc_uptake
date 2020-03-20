@@ -18,7 +18,7 @@ for i in frange:
 
 for i in frange:
     for j in mutRates:
-        arg = "6.02e-8 0.0054 0.08331.778 1.778 1 1 " + str(round(i, 2)) + " 2.45e-8 2.45e-8 " + str(j) + " " + str(j) + " 1478000 21633 147 220 0 1825 100"
+        arg = "6.02e-8 0.0054 0.0833 1.778 1.778 1 1 " + str(round(i, 2)) + " 2.45e-8 2.45e-8 " + str(j) + " " + str(j) + " 1478000 21633 147 220 0 1825 100"
         args.append(arg)
         
 for i in frange:
